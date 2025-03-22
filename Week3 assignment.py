@@ -25,7 +25,7 @@ def compress_string(s: str) -> str:
     return(outputstring)
 # Your code - END >
 
-# main function (DO NOT MODIFY)
+# main function (DO NOT MODIFY) changed
 if __name__ == "__main__":
     s = str(sys.argv[1]).strip()  # Read input from command line
     print(compress_string(s))  # Print the result
